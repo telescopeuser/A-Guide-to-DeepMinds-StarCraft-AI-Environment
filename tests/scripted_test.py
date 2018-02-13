@@ -12,7 +12,8 @@ from pysc2.lib import actions as sc2_actions
 from pysc2.lib import features
 
 from pysc2.lib import basetest
-import gflags as flags
+# import gflags as flags
+from absl import flags
 import sys
 
 _NO_OP = sc2_actions.FUNCTIONS.no_op.id
